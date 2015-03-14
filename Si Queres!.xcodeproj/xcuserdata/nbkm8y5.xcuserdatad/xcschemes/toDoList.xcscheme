@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "64DA157D1AA7D6B200400133"
-               BuildableName = "Si Queres.app"
+               BuildableName = "toDoList.app"
                BlueprintName = "toDoList"
                ReferencedContainer = "container:toDoList.xcodeproj">
             </BuildableReference>
@@ -29,7 +29,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "64DA15961AA7D6B200400133"
-               BuildableName = "Si QueresTests.xctest"
+               BuildableName = "toDoListTests.xctest"
                BlueprintName = "toDoListTests"
                ReferencedContainer = "container:toDoList.xcodeproj">
             </BuildableReference>
@@ -47,7 +47,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "64DA15961AA7D6B200400133"
-               BuildableName = "Si QueresTests.xctest"
+               BuildableName = "toDoListTests.xctest"
                BlueprintName = "toDoListTests"
                ReferencedContainer = "container:toDoList.xcodeproj">
             </BuildableReference>
@@ -57,7 +57,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "64DA157D1AA7D6B200400133"
-            BuildableName = "Si Queres.app"
+            BuildableName = "toDoList.app"
             BlueprintName = "toDoList"
             ReferencedContainer = "container:toDoList.xcodeproj">
          </BuildableReference>
@@ -72,12 +72,11 @@
       ignoresPersistentStateOnLaunch = "NO"
       debugDocumentVersioning = "YES"
       allowLocationSimulation = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "64DA157D1AA7D6B200400133"
-            BuildableName = "Si Queres.app"
+            BuildableName = "toDoList.app"
             BlueprintName = "toDoList"
             ReferencedContainer = "container:toDoList.xcodeproj">
          </BuildableReference>
@@ -91,12 +90,11 @@
       useCustomWorkingDirectory = "NO"
       buildConfiguration = "Release"
       debugDocumentVersioning = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "64DA157D1AA7D6B200400133"
-            BuildableName = "Si Queres.app"
+            BuildableName = "toDoList.app"
             BlueprintName = "toDoList"
             ReferencedContainer = "container:toDoList.xcodeproj">
          </BuildableReference>

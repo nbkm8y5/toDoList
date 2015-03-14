@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6446CFC01AB49F6900F217DE /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6446CFBF1AB49F6900F217DE /* Media.xcassets */; };
 		64A128671AA8D88D00172809 /* AddToDoItemViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 64A128661AA8D88D00172809 /* AddToDoItemViewController.m */; };
 		64A1286A1AA8D9A600172809 /* ToDoListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 64A128691AA8D9A600172809 /* ToDoListTableViewController.m */; };
 		64DA15841AA7D6B200400133 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 64DA15831AA7D6B200400133 /* main.m */; };
 		64DA15871AA7D6B200400133 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 64DA15861AA7D6B200400133 /* AppDelegate.m */; };
 		64DA158A1AA7D6B200400133 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 64DA15891AA7D6B200400133 /* ViewController.m */; };
 		64DA158D1AA7D6B200400133 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64DA158B1AA7D6B200400133 /* Main.storyboard */; };
+		64DA158F1AA7D6B200400133 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64DA158E1AA7D6B200400133 /* Images.xcassets */; };
 		64DA15921AA7D6B200400133 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 64DA15901AA7D6B200400133 /* LaunchScreen.xib */; };
 		64DA159E1AA7D6B200400133 /* toDoListTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 64DA159D1AA7D6B200400133 /* toDoListTests.m */; };
 /* End PBXBuildFile section */
@@ -29,7 +29,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		6446CFBF1AB49F6900F217DE /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
 		64A128651AA8D88D00172809 /* AddToDoItemViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddToDoItemViewController.h; sourceTree = "<group>"; };
 		64A128661AA8D88D00172809 /* AddToDoItemViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddToDoItemViewController.m; sourceTree = "<group>"; };
 		64A128681AA8D9A600172809 /* ToDoListTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ToDoListTableViewController.h; sourceTree = "<group>"; };
@@ -42,6 +41,7 @@
 		64DA15881AA7D6B200400133 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		64DA15891AA7D6B200400133 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		64DA158C1AA7D6B200400133 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		64DA158E1AA7D6B200400133 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		64DA15911AA7D6B200400133 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		64DA15971AA7D6B200400133 /* toDoListTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = toDoListTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		64DA159C1AA7D6B200400133 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -96,8 +96,8 @@
 				64A128691AA8D9A600172809 /* ToDoListTableViewController.m */,
 				64A128651AA8D88D00172809 /* AddToDoItemViewController.h */,
 				64A128661AA8D88D00172809 /* AddToDoItemViewController.m */,
+				64DA158E1AA7D6B200400133 /* Images.xcassets */,
 				64DA15901AA7D6B200400133 /* LaunchScreen.xib */,
-				6446CFBF1AB49F6900F217DE /* Media.xcassets */,
 				64DA15811AA7D6B200400133 /* Supporting Files */,
 			);
 			path = toDoList;
@@ -210,8 +210,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				64DA158D1AA7D6B200400133 /* Main.storyboard in Resources */,
-				6446CFC01AB49F6900F217DE /* Media.xcassets in Resources */,
 				64DA15921AA7D6B200400133 /* LaunchScreen.xib in Resources */,
+				64DA158F1AA7D6B200400133 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -309,7 +309,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -345,7 +345,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -357,12 +357,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = toDoList/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = toDoList;
-				TARGETED_DEVICE_FAMILY = 1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
@@ -370,12 +367,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = toDoList/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = toDoList;
-				TARGETED_DEVICE_FAMILY = 1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
 		};
@@ -393,7 +387,7 @@
 				);
 				INFOPLIST_FILE = toDoListTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = toDoListTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/toDoList.app/toDoList";
 			};
 			name = Debug;
@@ -408,7 +402,7 @@
 				);
 				INFOPLIST_FILE = toDoListTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = toDoListTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/toDoList.app/toDoList";
 			};
 			name = Release;
