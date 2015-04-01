@@ -35,7 +35,7 @@
 		64A128661AA8D88D00172809 /* AddToDoItemViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddToDoItemViewController.m; sourceTree = "<group>"; };
 		64A128681AA8D9A600172809 /* ToDoListTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ToDoListTableViewController.h; sourceTree = "<group>"; };
 		64A128691AA8D9A600172809 /* ToDoListTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ToDoListTableViewController.m; sourceTree = "<group>"; };
-		64AF164D1AB9D32900420F3B /* Product Backlog.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "Product Backlog.md"; sourceTree = "<group>"; };
+		64AF164D1AB9D32900420F3B /* Product Backlog.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = "Product Backlog.md"; path = "../Product Backlog.md"; sourceTree = "<group>"; };
 		64DA157E1AA7D6B200400133 /* toDoList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = toDoList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		64DA15821AA7D6B200400133 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		64DA15831AA7D6B200400133 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -71,7 +71,6 @@
 		64DA15751AA7D6B200400133 = {
 			isa = PBXGroup;
 			children = (
-				64AF164D1AB9D32900420F3B /* Product Backlog.md */,
 				64DA15801AA7D6B200400133 /* toDoList */,
 				64DA159A1AA7D6B200400133 /* toDoListTests */,
 				64DA157F1AA7D6B200400133 /* Products */,
@@ -90,6 +89,7 @@
 		64DA15801AA7D6B200400133 /* toDoList */ = {
 			isa = PBXGroup;
 			children = (
+				64AF164D1AB9D32900420F3B /* Product Backlog.md */,
 				64DA15851AA7D6B200400133 /* AppDelegate.h */,
 				64DA15861AA7D6B200400133 /* AppDelegate.m */,
 				64DA15881AA7D6B200400133 /* ViewController.h */,
